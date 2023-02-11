@@ -70,11 +70,11 @@ const Navbar = () => {
 
         <div>
           <ul
-            className="hidden sm:flex ml-36"
+            className="hidden sm:flex ml-32"
             style={{ color: `${textColor}` }}
           >
             <li className="p-4">
-              <Link className="bg-[#D4F6FF4D] rounded-3xl py-2 px-8" to="/">
+              <Link className="bg-[#D4F6FF4D] rounded-3xl py-2 px-6" to="/">
                 Login
               </Link>
             </li>
@@ -87,7 +87,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Button */}
-        <div className="block sm:hidden items-end z-10">
+        <div className="block sm:hidden items-end z-10 mr-8">
           {nav ? (
             <AiOutlineClose
               size={20}
@@ -107,31 +107,57 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 p-4"
-              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 p-4"
+              ? "fixed w-[100%] sm:w-[60%] top-20 md-[45%] h-[45%] bg-blur-white  ease-in duration-500"
+              : "fixed left-[-100%] h-[45%] top-0 p-10 ease-in duration-500"
           }
         >
-          <ul>
-            <li
-              onClick={toggleNav}
-              className="p-4 text-4xl hover:text-gray-500"
-            >
-              <Link to="/">Home</Link>
-            </li>
-            <li
-              onClick={toggleNav}
-              className="p-4 text-4xl hover:text-gray-500"
-            >
-              <Link to="/about">About</Link>
-            </li>
-
-            <li
-              onClick={toggleNav}
-              className="p-4 text-4xl hover:text-gray-500"
-            >
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
+          <div className="text-[hsla(2, 0%, 100%, 0.7)]">
+            <ul className="py-4 flex flex-col">
+              <Link
+                to="/"
+                className=" w-[100%]"
+                style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+                onClick={toggleNav}
+              >
+                <li className="py-4 p-10 text-1xl">Home</li>
+              </Link>
+              <Link
+                to="#about"
+                style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+                onClick={toggleNav}
+              >
+                <li className="py-4 p-10 text-sm">Courses</li>
+              </Link>
+              <Link
+                to="#skills"
+                style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+                onClick={toggleNav}
+              >
+                <li className="py-4 p-10 text-sm">About us</li>
+              </Link>
+              <Link
+                to="#projects"
+                style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+                onClick={toggleNav}
+              >
+                <li className="py-4 p-10 text-sm">Contacts</li>
+              </Link>
+              <Link
+                to="#mentorship"
+                style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+                onClick={toggleNav}
+              >
+                <li className="py-4 p-10 text-sm">Login</li>
+              </Link>
+              <Link
+                to="#contact"
+                style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
+                onClick={toggleNav}
+              >
+                <li className="py-4 p-10 text-sm">Apply now</li>
+              </Link>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
