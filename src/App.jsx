@@ -1,14 +1,12 @@
-
-import './App.css'
+import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
- 
   return (
-    <div className="App">
-      <h1 className="text-4xl text-center">Hello React</h1>
-        
+    <div>
+      <Navbar />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
