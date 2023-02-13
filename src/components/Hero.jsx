@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect";
 import hero from "../assets/hero.svg";
+import rectangle from "../assets/3dots.png";
 import "./Hero.css";
 
 const Hero = () => {
@@ -56,6 +57,11 @@ const Hero = () => {
             src={hero}
             alt="hero image"
             className="md:rounded-l-full object-cover"
+          />
+          <img
+            src={rectangle}
+            alt=""
+            className="absolute top-[83%] right-[34%]"
           />
         </div>
       </div>
