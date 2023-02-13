@@ -4,8 +4,8 @@ import illustration from "../assets/illustration2.svg";
 
 const Why = () => {
   return (
-    <div className="pt-20">
-      <h1 className="text-black text-4xl md:text-7xl overflow-hidden mb-10">
+    <div className="p-20 ">
+      <h1 className="text-black text-4xl md:text-5xl overflow-hidden pb-16">
         Why us?
       </h1>
       {/*cards with image and a paragraph 3 per row*/}
