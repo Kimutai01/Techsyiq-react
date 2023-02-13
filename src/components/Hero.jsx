@@ -6,9 +6,9 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="absolute top-28 left-0">
-      <div className="grid md:grid-cols-2 md:gap-4 md:pl-12">
-        <div className="flex flex-col items-start">
+    <div className="mt-20">
+      <div className="grid md:grid-cols-2 ">
+        <div className="flex flex-col ">
           <h1
             className="text-[#4D4E4E] flex flex-col m-0 items-start text-4xl md:text-7xl"
             style={{ lineHeight: "100px" }}
