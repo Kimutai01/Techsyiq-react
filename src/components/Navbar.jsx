@@ -63,7 +63,7 @@ const Navbar = () => {
               <Link to="/about">Blog</Link>
             </li>
             <li className="p-4">
-              <Link to="/contact">Contact</Link>
+              <Link to="/techie-mode">Techiemode</Link>
             </li>
           </ul>
         </div>
@@ -79,7 +79,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="p-4">
-              <Link to="/about" className="bg-[#3778B8] rounded-3xl py-2 px-4">
+              <Link to="/about" className="bg-[#3778B8] text-white rounded-3xl py-2 px-4">
                 Apply Now
               </Link>
             </li>
