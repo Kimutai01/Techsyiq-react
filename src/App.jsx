@@ -1,21 +1,15 @@
-import "./App.css";
-import Call from "./components/Call";
-import Courses from "./components/Courses";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Testimonials from "./components/Testimonials";
-import Why from "./components/Why";
+
+import Home from "./pages/Home";
+import TechieMode from "./pages/TechieMode";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Why />
-      <Courses />
-      <Call />
-      <Testimonials />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/techie-mode" element={<TechieMode />} />
+    </Routes>
+
   );
 }
 
