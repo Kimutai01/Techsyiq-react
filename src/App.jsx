@@ -1,13 +1,14 @@
 import "./App.css";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import TechieMode from "./pages/TechieMode";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/techie-mode" element={<TechieMode />} />
+    </Routes>
   );
 }
 
