@@ -24,7 +24,7 @@ const JobDescription = () => {
         <p className="border border-b-white  mt-6 mx-4 " />
 
         <h1 className="text-4xl text-white mt-10 ml-10">Skills</h1>
-        <section className="flex text-white justify-around mt-10">
+        <section className="flex flex-col gap-16 md:gap-2 md:flex-row  text-white justify-around mt-10">
           <ul>
             <li className="flex">
               <BsDot className="text-3xl pb-2" />

@@ -9,8 +9,8 @@ const Footer = () => {
     <div>
       <section className="bg-[#C83898] mt-10 pb-20">
         <div className="flex justify-around pt-10">
-          <div className="w-1/2 ml-20 text-white">
-            <h1 className=" text-4xl text-white">Make the right decision</h1>
+          <div className="w-1/2 md:ml-20 ml-4 text-white">
+            <h1 className=" md:text-4xl text-2xl text-white">Make the right decision</h1>
             <p className="my-4">
               You're clicks away from embarking on an exciting and life-changing
               path.

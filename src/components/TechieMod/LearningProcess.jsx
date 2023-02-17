@@ -5,19 +5,19 @@ const LearningProcess = () => {
   return (
     <div className="mt-20 ">
       <h1 className="text-4xl ml-20">Learning Process</h1>
-      <p className="ml-20 mt-4 w-[50%] text-[#7A7A7A]">
+      <p className="ml-20 mt-4 md:w-[50%] text-[#7A7A7A]">
         We use the flipped classroom, which means you study theory on your own
         and practice it in class with the teacher's guidance and classmates'
         support.
       </p>
 
-      <section className="relative bg-[#3778B8]/20 mt-16 h-[100vh] mx-20 rounded-2xl">
-        <div className="flex justify-around pt-10">
-          <div className="w-1/2 pl-10">
+      <section className="relative bg-[#3778B8]/20 mt-16 md:h-[100vh] md:mx-20 mx-8 rounded-2xl">
+        <div className="flex md:flex-row flex-col justify-around pt-10">
+          <div className="md:w-1/2 p-8 md:pl-10">
             <img src={rectangle27} alt="rectangle27" width={400} height={600} />
           </div>
 
-          <div className="w-1/2 pt-20">
+          <div className="md:w-1/2 ml-4 pt-20">
             <h1>Theory</h1>
             <h1 className="text-[#C83798] text-4xl">70 hours +</h1>
             <p className="w-[80%] mt-4 text-[#7A7A7A]">
@@ -29,7 +29,7 @@ const LearningProcess = () => {
 
             <h1>Live Classes</h1>
             <h1 className="text-[#C83798] text-4xl">126 hours </h1>
-            <p className="w-[80%] mt-4 text-[#7A7A7A]">
+            <p className="w-[80%] mt-4 text-[#7A7A7A] pb-20 md:pb-0">
               In live classes, you will have homework discussions with your
               teacher, complete practical assignments, and work on group and
               individual projects.
@@ -45,7 +45,7 @@ const LearningProcess = () => {
 
       <div className="mt-20 ml-20">
         <h1 className="text-4xl">Career Support</h1>
-        <p className="w-[50%] mt-4 text-[#7A7A7A]">
+        <p className="md:w-[50%] mt-4 text-[#7A7A7A]">
           We'll assist you with writing your first CV, make sure you nail your
           interviews, and help you navigate the job market. Our goal is to get
           you started in the tech industry, not just pass a course.

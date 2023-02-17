@@ -5,7 +5,7 @@ import vector3 from "../Vector-2.png";
 import image4 from "../image-4.png";
 const Tutors = () => {
   return (
-    <div className="bg-[#C83798]/20 mt-16 h-[100vh]">
+    <div className="bg-[#C83798]/20 mt-16 md:h-[100vh] h-full">
       <section className="pt-10 ml-8 flex ">
         <img
           src={vector}
@@ -30,8 +30,8 @@ const Tutors = () => {
         />
       </section>
 
-      <div className="flex  mt-10">
-        <div className="w-1/2">
+      <div className="flex md:flex-row flex-col  mt-10">
+        <div className="md:w-1/2">
           <img
             src={image4}
             alt="image4"
@@ -40,9 +40,9 @@ const Tutors = () => {
             className="rounded-r-full"
           />
         </div>
-        <div className="w-1/2 pt-20">
+        <div className="md:w-1/2 pt-20">
           <h1 className="text-4xl">Our Tutors</h1>
-          <p className="text-sm text-[#7A7A7A] mt-10">
+          <p className="py-6 md:py-0 text-md text-[#7A7A7A] mt-10">
             All tutors pass multiple interviews to ensure aligning values, as
             well as impeccable soft and technical skills. The final step is a
             demo class where they teach a topic to other teachers. Our team of

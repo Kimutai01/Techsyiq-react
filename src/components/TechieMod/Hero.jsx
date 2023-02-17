@@ -3,11 +3,10 @@ import { BsDot } from "react-icons/bs";
 
 import group from "../Group-63.png";
 
-
 const Hero = () => {
   return (
     <div className="mt-20">
-      <section className="flex  justify-between">
+      <section className="flex flex-col gap-4  md:flex-row justify-between">
         <div className="flex flex-col ml-10 ">
           <p className="text-gray-400 text-sm">Beginner Level | Remote</p>
 
@@ -50,8 +49,6 @@ const Hero = () => {
         knowledge to master the profession independently and learn to speak the
         tech community's and developers' language.
       </section>
-
-      
     </div>
   );
 };

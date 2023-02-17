@@ -7,7 +7,7 @@ const CourseFor = () => {
     <>
       <h1 className="text-4xl mt-10 ml-10">Who is this course for?</h1>
 
-      <section className="flex justify-center ml-20 mt-8">
+      <section className="flex flex-col gap-10 md:gap-0 md:flex-row justify-center ml-20 mt-8">
         <div>
           <img src={Frame1} alt="Frame1" width={300} height={300} />
           <h1>You are starting or switching a career</h1>
