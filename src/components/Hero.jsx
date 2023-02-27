@@ -6,7 +6,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-20 pl-6 md:pl-20">
       <div className="grid md:grid-cols-2 ">
         <div className="flex flex-col ">
           <h1

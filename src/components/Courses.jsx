@@ -3,7 +3,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Courses = () => {
   return (
-    <div className="pl-20 pr-20 pb-20 rotate-">
+    <div className="md:pl-20 md:pr-20 px-8 md:px-0 pb-20 rotate-">
       <h1 className="text-5xl mb-6">Our courses</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         <div className="shadow-md p-4 rounded-lg transform hover:rotate-6">
