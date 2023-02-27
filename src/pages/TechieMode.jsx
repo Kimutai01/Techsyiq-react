@@ -9,9 +9,11 @@ import TuitonFees from "../components/TechieMod/TuitonFees";
 import Faqs from "../components/TechieMod/Faqs";
 import Footer from "../components/TechieMod/Footer";
 import Why from "../components/Why";
+import Navbar from "../components/Navbar";
 const TechieMode = () => {
   return (
     <div>
+      <Navbar />
       <Hero />
       <CourseFor />
       <JobDescription />
