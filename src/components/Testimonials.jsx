@@ -49,7 +49,7 @@ const Testimonials = () => {
               consequat. Sed consequat nam vivamus quam ut viverra sed.
             </p>
           </div>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 ml-24">
+          <div className="px-4 sm:px-6 lg:px-8 py-12 ml-24">
             <Splide
               options={{
                 type: "loop",

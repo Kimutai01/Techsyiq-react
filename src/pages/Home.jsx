@@ -5,6 +5,9 @@ import Call from "../components/Call";
 import Testimonials from "../components/Testimonials";
 import Why from "../components/Why";
 import Stats from "../components/Stats";
+import Newsletter from "../components/Newsletter";
+import Footer from "../components/TechieMod/Footer";
+import HomeFooter from "../components/HomeFooter";
 
 function Home() {
   return (
@@ -16,6 +19,8 @@ function Home() {
       <Call />
       <Testimonials />
       <Stats />
+      <Newsletter />
+      <HomeFooter />
     </div>
   );
 }

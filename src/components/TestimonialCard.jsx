@@ -5,7 +5,6 @@ const TestimonialCard = ({ name, message, title, image }) => {
   return (
     <div>
       <img src={image} alt="" />
-      <p>{message}</p>
       <h1>{name}</h1>
     </div>
   );
