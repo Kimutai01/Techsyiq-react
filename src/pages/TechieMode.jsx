@@ -8,6 +8,7 @@ import LearningProcess from "../components/TechieMod/LearningProcess";
 import TuitonFees from "../components/TechieMod/TuitonFees";
 import Faqs from "../components/TechieMod/Faqs";
 import Footer from "../components/TechieMod/Footer";
+import Why from "../components/Why";
 const TechieMode = () => {
   return (
     <div>
@@ -17,9 +18,10 @@ const TechieMode = () => {
       <CourseOutline />
       <Tutors />
       <LearningProcess />
+      <Why />
       <TuitonFees />
       <Faqs />
-        <Footer />
+      <Footer />
     </div>
   );
 };
