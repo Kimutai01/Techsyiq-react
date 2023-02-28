@@ -24,7 +24,7 @@ const Newsletter = () => {
               By subscribing, you agree to our terms and conditions
             </p>
           </div>
-          <button className="bg-[#3778B8] rounded-full w-[110px] py-2 mt-6">
+          <button className="bg-[#3778B8] text-[white] rounded-full w-[110px] py-2 mt-6">
             Subscribe
           </button>
         </form>

@@ -12,17 +12,17 @@ const Hero = () => {
         </p>
         <div className="flex">
           <div className="border-r-2 border-[#3778B8] h-16 mt-4 mr-4 hidden md:block justify-center"></div>
-          <div className="flex md:flex-row flex-col h-9 mt-8">
+          <div className="flex md:flex-row flex-col justify-center md:justify-start h-9 mt-8">
             <button className="bg-[#3778B8] rounded-full w-32 text-[#FFF] mr-4">
               All articles
             </button>
             <button className="bg-[#D8E6F3] w-40 rounded-full">
               Success stories
             </button>
-            <button className="bg-[#D8E6F3] w-40 ml-6 rounded-full">
+            <button className="bg-[#D8E6F3] w-40 md:ml-6 rounded-full">
               Student experience
             </button>
-            <button className="bg-[#D8E6F3] w-40 ml-6 rounded-full">
+            <button className="bg-[#D8E6F3] w-40 md:ml-6 rounded-full">
               Guides
             </button>
           </div>
@@ -30,10 +30,10 @@ const Hero = () => {
       </div>
 
       <div className="mt-20 flex md:flex-row flex-col">
-        <div className="w-[100%]">
+        <div className="w-[100%] p-9 md:p-0">
           <img src={mail} alt="" />
         </div>
-        <div>
+        <div className="p-9 md:p-0">
           <div className="flex">
             <p className="mr-2 text-[#3778B8]">News</p>
             <p className="border-r-2 border-[#000] h-5"></p>
