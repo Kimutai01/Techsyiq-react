@@ -6,7 +6,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="mt-20 pl-6 md:pl-20">
+    <div className="mt-24 p-8 md:p-0 md:pl-24">
       <div className="grid md:grid-cols-2 ">
         <div className="flex flex-col ">
           <h1
@@ -30,7 +30,7 @@ const Hero = () => {
                 className=" w-12 bg-[#F79F28] mt-3 md:pl-4"
                 style={{ height: "1.5px" }}
               ></div>
-              <span className="text-[#F79F28] ">
+              <span className="text-[#F79F28] ml-4">
                 <Typewriter
                   options={{
                     strings: ["PSST,FULLY REMOTE"],
@@ -52,7 +52,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="md:pl-20 mt-10 ">
+        <div className="md:pl-20 mt-10  ">
           <img
             src={hero}
             alt="hero image"

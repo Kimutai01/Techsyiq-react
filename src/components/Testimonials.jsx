@@ -78,7 +78,7 @@ const Testimonials = () => {
               }}
             >
               {testimonials.map((product) => (
-                <SplideSlide>
+                <SplideSlide className="h-[500px]">
                   <TestimonialCard
                     name={product.name}
                     message={product.message}
