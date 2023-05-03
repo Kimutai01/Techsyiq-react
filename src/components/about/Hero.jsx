@@ -5,7 +5,7 @@ import dots from "../../assets/group10.svg";
 const Hero = () => {
   return (
     <div className="pt-28 flex items-center md:flex-row flex-col-reverse">
-      <div className="w-[90%] pl-20 mr-20">
+      <div className="w-[80%] mx-auto text-xl md:pl-20 md:mr-20">
         Sed ut sit nec ultrices. Diam enim, augue auctor quisque senectus enim,
         nibh ipsum. Feugiat tempor nisi, ut dolor pellentesque egestas.
         Tristique dictumst odio justo, volutpat. Pharetra, mi, venenatis ut id

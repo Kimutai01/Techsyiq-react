@@ -4,21 +4,21 @@ import dots from "../../assets/teamrect.svg";
 const Team = () => {
   return (
     <div>
-      <h1>My Team</h1>
-      <p>
+      <h1 className="text-4xl font-bold text-center pt-10">My Team</h1>
+      <p className="p-12 text-xl">
         To be the coding school our students expect us to be, it takes an
         eclectic, vibrant group of passionate individuals. Meet the people
         leading the way at Techsyiq.
       </p>
       <div className="flex md:flex-row flex-col p-10">
-        <div className="w-[100%] mr-10 shadow-md border-r-10">
+        <div className="w-[100%]  mr-10 shadow-md border-r-10">
           <img src={dots} alt="" />
           <div>
             <h4>John Doe</h4>
           </div>
           <p>Founder</p>
         </div>
-        <div className="flex items-center">
+        <div className="flex pt-6 items-center text-xl">
           Quis nunc blandit est pharetra aliquam venenatis. Lectus cursus nibh
           sed eget non lacus euismod. Sit risus, aliquet adipiscing viverra.
           Massa auctor proin ac tempor maecenas. Congue libero, dolor volutpat
@@ -35,7 +35,7 @@ const Team = () => {
         </div>
       </div>
 
-      <div className="flex md:flex-row-reverse flex-col-reverse p-10">
+      <div className="flex md:flex-row-reverse flex-col p-10">
         <div className="w-[100%] mr-10 shadow-md border-r-10">
           <img src={dots} alt="" />
           <div>
@@ -43,7 +43,7 @@ const Team = () => {
           </div>
           <p>Founder</p>
         </div>
-        <div className="flex items-center">
+        <div className="flex text-xl pt-6 items-center">
           Quis nunc blandit est pharetra aliquam venenatis. Lectus cursus nibh
           sed eget non lacus euismod. Sit risus, aliquet adipiscing viverra.
           Massa auctor proin ac tempor maecenas. Congue libero, dolor volutpat
@@ -68,7 +68,7 @@ const Team = () => {
           </div>
           <p>Founder</p>
         </div>
-        <div className="flex items-center">
+        <div className="flex text-xl pt-6 items-center">
           Quis nunc blandit est pharetra aliquam venenatis. Lectus cursus nibh
           sed eget non lacus euismod. Sit risus, aliquet adipiscing viverra.
           Massa auctor proin ac tempor maecenas. Congue libero, dolor volutpat
