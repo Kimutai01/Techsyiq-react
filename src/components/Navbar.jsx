@@ -107,7 +107,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed w-[100%] sm:w-[60%] top-20 md-[45%] h-[45%] bg-blur-white  ease-in duration-500"
+              ? "fixed w-[100%] sm:w-[60%] top-20 md-[45%] h-[45%] bg-[#ccc]  ease-in duration-500"
               : "fixed left-[-100%] h-[45%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -122,25 +122,25 @@ const Navbar = () => {
                 <li className="py-4 p-10 text-1xl">Home</li>
               </Link>
               <Link
-                to="#about"
+                to="/techie-mode"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
                 onClick={toggleNav}
               >
                 <li className="py-4 p-10 text-sm">Courses</li>
               </Link>
               <Link
-                to="#skills"
+                to="/about"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
                 onClick={toggleNav}
               >
                 <li className="py-4 p-10 text-sm">About us</li>
               </Link>
               <Link
-                to="#projects"
+                to="/blog"
                 style={{ borderBottom: "1px solid hsla(0, 0%, 100%, 0.12)" }}
                 onClick={toggleNav}
               >
-                <li className="py-4 p-10 text-sm">Contacts</li>
+                <li className="py-4 p-10 text-sm">Blog</li>
               </Link>
               <Link
                 to="#mentorship"
