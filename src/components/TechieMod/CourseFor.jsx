@@ -5,9 +5,9 @@ import Frame3 from "../Frame-3.png";
 const CourseFor = () => {
   return (
     <>
-      <h1 className="text-4xl mt-10 ml-10">Who is this course for?</h1>
+      <h1 className="text-4xl mt-10 mx-5 md:ml-10">Who is this course for?</h1>
 
-      <section className="flex flex-col gap-10 md:gap-0 md:flex-row justify-center ml-20 mt-8">
+      <section className="flex flex-col gap-10 md:gap-0 md:flex-row justify-center mx-16 md:mx-0 md:ml-20 mt-8">
         <div>
           <img src={Frame1} alt="Frame1" width={300} height={300} />
           <h1>You are starting or switching a career</h1>
