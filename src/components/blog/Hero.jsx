@@ -4,25 +4,25 @@ import mail from "../..//assets/rectangle35.svg";
 const Hero = () => {
   return (
     <div className="md:p-24">
-      <div className=" mt-20">
+      <div className="px-6 mt-20 ">
         <h1 className="text-3xl text-[#3778B8] mb-6">Techsyiq Blog</h1>
-        <p>
+        <p className="">
           Read about our students, their success stories, and experience at
           Techsyiq.
         </p>
         <div className="flex">
           <div className="border-r-2 border-[#3778B8] h-16 mt-4 mr-4 hidden md:block justify-center"></div>
-          <div className="flex md:flex-row flex-col justify-center md:justify-start h-9 mt-8">
-            <button className="bg-[#3778B8] rounded-full w-32 text-[#FFF] mr-4">
+          <div className="flex flex-row gap-2  md:justify-start md:h-9 mt-8">
+            <button className="bg-[#3778B8] h-14 md:h-10 w-24 rounded-full md:w-32 text-[#FFF] md:mr-4">
               All articles
             </button>
-            <button className="bg-[#D8E6F3] w-40 rounded-full">
+            <button className="bg-[#D8E6F3] h-14 md:h-10 w-20 md:w-40 rounded-full">
               Success stories
             </button>
-            <button className="bg-[#D8E6F3] w-40 md:ml-6 rounded-full">
+            <button className="bg-[#D8E6F3] h-14 md:h-10 w-20 md:w-40 md:ml-6 rounded-full">
               Student experience
             </button>
-            <button className="bg-[#D8E6F3] w-40 md:ml-6 rounded-full">
+            <button className="bg-[#D8E6F3] h-14 md:h-10 w-20 md:w-40 md:ml-6 rounded-full">
               Guides
             </button>
           </div>
