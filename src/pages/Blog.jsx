@@ -4,6 +4,7 @@ import Questions from "../components/blog/Questions";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/TechieMod/Footer";
+import HomeFooter from "../components/HomeFooter";
 
 const Blog = () => {
   return (
@@ -12,7 +13,7 @@ const Blog = () => {
       <Hero />
       <Newsletter />
       <Questions />
-      <Footer />
+      <HomeFooter />
     </div>
   );
 };

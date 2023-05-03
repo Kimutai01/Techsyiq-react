@@ -7,7 +7,7 @@ const JobDescription = () => {
       <h1 className="text-4xl mt-10 ml-10">
         What job descriptions will fit you?
       </h1>
-      <section className="bg-[#C83898]  pt-6 pb-12 rounded-2xl mx-16 mt-8">
+      <section className="bg-[#C83898] pt-6 md:w-[80%] w-[100%] mx-auto pb-12 rounded-2xl mt-8">
         <div className="flex  pt-10">
           <img
             src={circle}

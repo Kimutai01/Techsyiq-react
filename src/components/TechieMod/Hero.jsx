@@ -5,8 +5,8 @@ import group from "../Group-63.png";
 
 const Hero = () => {
   return (
-    <div className="mt-20">
-      <section className="flex flex-col gap-4  md:flex-row justify-between">
+    <div className="mt-28">
+      <section className="flex flex-col p-10 md:p-0 gap-4  md:flex-row justify-between">
         <div className="flex flex-col ml-10 ">
           <p className="text-gray-400 text-sm">Beginner Level | Remote</p>
 
@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
       </section>
 
-      <section className="text-white py-16 mt-8 px-8 w-full bg-[#C83898] ">
+      <section className="text-white py-16 md:m-0 mt-8 px-8 w-full bg-[#C83898] ">
         Take your first steps in front-end development. Our course has a
         project-based approach, so you will create your own project from scratch
         during the HTML/CSS, JavaScript, and Vue.js framework modules. Gain

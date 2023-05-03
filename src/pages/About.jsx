@@ -6,6 +6,7 @@ import Faqs from "../components/TechieMod/Faqs";
 import Footer from "../components/TechieMod/Footer";
 import LearningProcess from "../components/TechieMod/LearningProcess";
 import Tutors from "../components/TechieMod/Tutors";
+import HomeFooter from "../components/HomeFooter";
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
       <Tutors />
       <LearningProcess />
       <Faqs />
-      <Footer />
+      <HomeFooter />
     </div>
   );
 };

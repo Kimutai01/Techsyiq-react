@@ -10,6 +10,7 @@ import Faqs from "../components/TechieMod/Faqs";
 import Footer from "../components/TechieMod/Footer";
 import Why from "../components/Why";
 import Navbar from "../components/Navbar";
+import HomeFooter from "../components/HomeFooter";
 const TechieMode = () => {
   return (
     <div>
@@ -23,7 +24,7 @@ const TechieMode = () => {
       <Why />
       <TuitonFees />
       <Faqs />
-      <Footer />
+      <HomeFooter />
     </div>
   );
 };
